@@ -77,7 +77,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     height: 300px;
-    max-width: 400px;
+    max-width: 500px;
 } 
 
  /* img {
@@ -126,10 +126,10 @@ footer {
     #heading img{
         max-width: 75%;
     }
-}
+}*/
 
 @media screen and (max-width: 318px) {
-    .pirate-img{
+    .dothraki-img{
         max-width: 85%;
     }
-} */
+} 
