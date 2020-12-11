@@ -53,14 +53,12 @@ nav{
 }
 
 .btn {
-    border-radius: 49px;
     margin: auto;
     margin-left: 1rem;
     margin-right: 1rem;
     background-color: var(--dark-black);
     display: inline-block;
     padding: 1rem 2rem;
-    border-radius: 1rem;
     font-size: 1rem;
     color: var(--white);
 }
@@ -80,10 +78,7 @@ section {
     max-width: 390px; 
 } 
 
- /* img {
-    max-width: 100%;
-    height auto; /* default */
-  /* }  */ 
+
 
 div,
 textarea {
@@ -105,32 +100,16 @@ p {
     text-align: center;
 }
 
- ::placeholder {
-    color: var(--dark-black);
-    font-size: 1rem;
-    font-family: 'JetBrains Mono', monospace;
-}
-
 footer {
     background-color:var(--dark-black);
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     margin-top: 3rem;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
     text-align: center;
-    font-size: 1rem;
-    line-height: 2rem;
     color: var(--white);
+    
+}
+footer p{
+    text-align: center;
+    font-size: large;
 }
 
-/* @media screen and (max-width: 535px) {
-    #heading img{
-        max-width: 75%;
-    }
-}*/
-
-@media screen and (max-width: 318px) {
-    .dothraki-img{
-        max-width: 85%;
-    }
-} 
